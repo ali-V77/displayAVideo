@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		631B3A771CDDDB7300889012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B3A761CDDDB7300889012 /* main.m */; };
 		631B3A7A1CDDDB7400889012 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B3A791CDDDB7400889012 /* AppDelegate.m */; };
-		631B3A7D1CDDDB7400889012 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B3A7C1CDDDB7400889012 /* ViewController.m */; };
-		631B3A801CDDDB7400889012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631B3A7E1CDDDB7400889012 /* Main.storyboard */; };
 		631B3A821CDDDB7400889012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631B3A811CDDDB7400889012 /* Assets.xcassets */; };
 		631B3A851CDDDB7400889012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631B3A831CDDDB7400889012 /* LaunchScreen.storyboard */; };
 		631B3A901CDDDB7400889012 /* displayVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B3A8F1CDDDB7400889012 /* displayVideoTests.m */; };
 		631B3A9B1CDDDB7500889012 /* displayVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B3A9A1CDDDB7500889012 /* displayVideoUITests.m */; };
+		631B3AAC1CDDE65800889012 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B3AA81CDDE65800889012 /* ViewController.m */; };
+		631B3AAD1CDDE65800889012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631B3AA91CDDE65800889012 /* Main.storyboard */; };
+		631B3AAE1CDDE65800889012 /* Alizee_La_Isla_Bonita.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 631B3AAA1CDDE65800889012 /* Alizee_La_Isla_Bonita.mp4 */; };
+		631B3AAF1CDDE65800889012 /* See you again.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 631B3AAB1CDDE65800889012 /* See you again.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +42,6 @@
 		631B3A781CDDDB7400889012 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		631B3A791CDDDB7400889012 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		631B3A7B1CDDDB7400889012 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		631B3A7C1CDDDB7400889012 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		631B3A7F1CDDDB7400889012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		631B3A811CDDDB7400889012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		631B3A841CDDDB7400889012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		631B3A861CDDDB7400889012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,10 @@
 		631B3A961CDDDB7400889012 /* displayVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = displayVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631B3A9A1CDDDB7500889012 /* displayVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = displayVideoUITests.m; sourceTree = "<group>"; };
 		631B3A9C1CDDDB7500889012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631B3AA81CDDE65800889012 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		631B3AA91CDDE65800889012 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		631B3AAA1CDDE65800889012 /* Alizee_La_Isla_Bonita.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Alizee_La_Isla_Bonita.mp4; sourceTree = "<group>"; };
+		631B3AAB1CDDE65800889012 /* See you again.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "See you again.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +108,10 @@
 				631B3A781CDDDB7400889012 /* AppDelegate.h */,
 				631B3A791CDDDB7400889012 /* AppDelegate.m */,
 				631B3A7B1CDDDB7400889012 /* ViewController.h */,
-				631B3A7C1CDDDB7400889012 /* ViewController.m */,
-				631B3A7E1CDDDB7400889012 /* Main.storyboard */,
+				631B3AA81CDDE65800889012 /* ViewController.m */,
+				631B3AA91CDDE65800889012 /* Main.storyboard */,
+				631B3AAA1CDDE65800889012 /* Alizee_La_Isla_Bonita.mp4 */,
+				631B3AAB1CDDE65800889012 /* See you again.mp4 */,
 				631B3A811CDDDB7400889012 /* Assets.xcassets */,
 				631B3A831CDDDB7400889012 /* LaunchScreen.storyboard */,
 				631B3A861CDDDB7400889012 /* Info.plist */,
@@ -243,9 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631B3AAD1CDDE65800889012 /* Main.storyboard in Resources */,
+				631B3AAF1CDDE65800889012 /* See you again.mp4 in Resources */,
 				631B3A851CDDDB7400889012 /* LaunchScreen.storyboard in Resources */,
+				631B3AAE1CDDE65800889012 /* Alizee_La_Isla_Bonita.mp4 in Resources */,
 				631B3A821CDDDB7400889012 /* Assets.xcassets in Resources */,
-				631B3A801CDDDB7400889012 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				631B3A7D1CDDDB7400889012 /* ViewController.m in Sources */,
+				631B3AAC1CDDE65800889012 /* ViewController.m in Sources */,
 				631B3A7A1CDDDB7400889012 /* AppDelegate.m in Sources */,
 				631B3A771CDDDB7300889012 /* main.m in Sources */,
 			);
@@ -308,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		631B3A7E1CDDDB7400889012 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				631B3A7F1CDDDB7400889012 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		631B3A831CDDDB7400889012 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = displayVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.displayVideo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = displayVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.displayVideo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +500,7 @@
 				631B3AA11CDDDB7500889012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		631B3AA21CDDDB7500889012 /* Build configuration list for PBXNativeTarget "displayVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +509,7 @@
 				631B3AA41CDDDB7500889012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		631B3AA51CDDDB7500889012 /* Build configuration list for PBXNativeTarget "displayVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +518,7 @@
 				631B3AA71CDDDB7500889012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
